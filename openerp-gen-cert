@@ -1,0 +1,53 @@
+#!/bin/bash
+KEYFILE=/etc/openerp/server.pem
+CERT_FILE=/etc/openerp/server.cert
+
+gen_cert()
+{
+    if [ ! -f $KEYFILE ] ; then
+        if [ ! -r /dev/urandom ]; then
+            echo "Your system doesn't seem to support urandom(4)" >&2
+            echo "Cannot create server key. Sorry" >&2
+            echo "Use \"openssl genrsa\" to create $KEYFILE manually >&2"
+            exit 2
+        fi
+        umask o-rwx g-w
+        if /usr/bin/openssl genrsa -rand /dev/urandom 1024 > $KEYFILE
+        then
+            echo "Created new key $KEYFILE"
+	    chown root:openerp $KEY_FILE
+        else
+            echo "Error creating server key" >&2
+            exit 1
+        fi
+    else
+        echo "Using existing key $KEYFILE"
+    fi
+
+    umask o+r
+    /usr/bin/openssl req -new -key $KEYFILE -x509 -days 365 \
+        -set_serial $RANDOM -extensions v3_req -out $CERT_FILE
+
+    if (( $? == 0 )); then
+	echo "Created a self-signed SSL certificate for OpenERP."
+	echo "You may want to revise it or get a real one."
+	chown root:openerp $CERT_FILE
+    else
+        echo "Error creating certificate"
+        rm -f $CERT_FILE
+    fi
+}
+
+
+if [ -r $CERT_FILE ] ; then
+    echo "Certificate $CERT_FILE already in place"
+    echo "Remove before creating a new one. Goodbye"
+    exit 0
+fi
+
+if [ "$UID" != 0 ]; then
+    echo "You must be root to do this" >&2
+    exit 1
+fi
+
+gen_cert

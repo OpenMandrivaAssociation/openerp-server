@@ -1,0 +1,72 @@
+# Fedora getting-started for Fedora >= F16
+
+There are several steps to get the server running:
+
+- Install postgresql and start the server.
+- Generate openerp server key and certificate.
+- Create the postgresql openerp user and it's database
+- Start the server.
+
+## Install postgresql.
+
+    $ sudo  yum -y install postgresql-server
+    $ sudo postgresql-setup initdb
+    $ sudo su - postgres
+    bash-2.4$ sed -i  '/^host/s/[^ ]*$/password/' \
+                       /var/lib/pgsql/data/pg_hba.conf
+    bash-2.4$ exit
+    $ sudo systemctl enable postgresql.service
+    $ sudo systemctl start postgresql.service
+
+The modifications of pg_hba.conf let the local postgresql user run also
+as postgres db user without authentication§, while all TCP-IP connections
+need a password.
+
+See: /usr/share/doc/postgresql-*/README.rpm-dist
+
+## Install openerp and generate server key and certificate.
+
+To install and generate a simple certificate and a key, both stored
+in /etc/openerp::
+
+    $ sudo yum install openerp
+    $ sudo openerp-gen-cert
+
+## Create database user. and it's database
+
+To create the openerp user, you need to set the password by
+editing /etc/openerp/openerp-server.conf. You should set
+db_name, db_user and db_password. To create database,
+assuming db_name == db_user == 'openerp'::
+
+    $ sudo su - postgres
+    bash-4.2$  createuser --createdb --no-createrole --pwprompt openerp
+    Enter password for new role: XXXXXXXXXX
+    Enter it again: XXXXXXXXXX
+    Shall the new role be a superuser? (y/n) y
+    CREATE ROLE
+    bash-4.2$ createdb -W -U openerp openerp
+    Password: XXXXXXXX
+    bash-4.2$ exit
+
+All three passwords are the same as db_password in
+/etc/openerp/openerp-server.conf.
+
+## Start openerp server
+
+    $ sudo systemctl start openerp.service
+
+and verify that /var/log/messages looks OK. You can make server start at
+boot using 'systemctl enable openerp.service'
+
+## Continue installation
+
+From now on you need to create an openerp database. For this, you need the
+gtk client:
+
+    $ sudo yum install openerp-client
+    $ openerp-client
+
+and proceed according to
+http://doc.openerp.com/v6.0/book/1/1_1_Inst_Config/1_1_Inst_Config_db_create.html
+

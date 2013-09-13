@@ -1,0 +1,819 @@
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/About.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/About.py
+index 401cf88..f7b8264 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/About.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/About.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/AddAttachment.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/AddAttachment.py
+index c65ba32..4d6be2b 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/AddAttachment.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/AddAttachment.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Change.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Change.py
+index cdc5c75..9707d5b 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Change.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Change.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ConvertBracesToField.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ConvertBracesToField.py
+index bb80c3e..8a9227c 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ConvertBracesToField.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ConvertBracesToField.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ConvertFieldsToBraces.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ConvertFieldsToBraces.py
+index 892061c..fb5516f 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ConvertFieldsToBraces.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ConvertFieldsToBraces.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ExportToRML.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ExportToRML.py
+index dd00f17..70f9c2b 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ExportToRML.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ExportToRML.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Expression.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Expression.py
+index ecdf134..839d2d8 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Expression.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Expression.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Fields.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Fields.py
+index 92044f7..3e8113d 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Fields.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Fields.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/LoginTest.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/LoginTest.py
+index 85059d7..4b7896f 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/LoginTest.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/LoginTest.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ModifyExistingReport.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ModifyExistingReport.py
+index 2ccd835..568c2f9 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ModifyExistingReport.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ModifyExistingReport.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/NewReport.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/NewReport.py
+index 6022e44..b95e967 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/NewReport.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/NewReport.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Repeatln.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Repeatln.py
+index 0eab6d1..3747737 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Repeatln.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Repeatln.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/SendToServer.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/SendToServer.py
+index 3a6d799..7425162 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/SendToServer.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/SendToServer.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ServerParameter.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ServerParameter.py
+index 9b69e4a..b22a27c 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ServerParameter.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/ServerParameter.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Translation.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Translation.py
+index 73146f1..864ae63 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Translation.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/Translation.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/__init__.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/__init__.py
+index 0ccd1c9..8b773dc 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/__init__.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/__init__.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/compile_all.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/compile_all.py
+index 4740c61..082b2cc 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/compile_all.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/compile_all.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/actions.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/actions.py
+index 8511bb8..39127b8 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/actions.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/actions.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/error.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/error.py
+index c0a3e5b..9a31e44 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/error.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/error.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/functions.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/functions.py
+index 29f1cd8..eac97c0 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/functions.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/functions.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/gui.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/gui.py
+index 975aa38..faffde6 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/gui.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/lib/gui.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/modify.py b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/modify.py
+index fc3d667..0f60b6b 100644
+--- a/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/modify.py
++++ b/openerp/addons/base_report_designer/plugin/openerp_report_designer/bin/script/modify.py
+@@ -18,7 +18,7 @@
+ # 
+ #   You should have received a copy of the GNU Lesser General Public 
+ #   License along with this library; if not, write to the Free Software 
+-#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA 
++#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA 
+ # 
+ #   See:  http://www.gnu.org/licenses/lgpl.html 
+ #
+diff --git a/openerp/addons/document_webdav/__openerp__.py b/openerp/addons/document_webdav/__openerp__.py
+index 82541b7..09245e7 100644
+--- a/openerp/addons/document_webdav/__openerp__.py
++++ b/openerp/addons/document_webdav/__openerp__.py
+@@ -24,7 +24,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/document_webdav/test_davclient.py b/openerp/addons/document_webdav/test_davclient.py
+index 3c20cfe..44be73a 100755
+--- a/openerp/addons/document_webdav/test_davclient.py
++++ b/openerp/addons/document_webdav/test_davclient.py
+@@ -24,7 +24,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ###############################################################################
+ 
+ """ A trivial HTTP/WebDAV client, used for testing the server
+diff --git a/openerp/addons/document_webdav/webdav_server.py b/openerp/addons/document_webdav/webdav_server.py
+index ae75d0b..dd39d55 100644
+--- a/openerp/addons/document_webdav/webdav_server.py
++++ b/openerp/addons/document_webdav/webdav_server.py
+@@ -30,7 +30,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ###############################################################################
+ 
+ 
+diff --git a/openerp/addons/l10n_ch/report/__init__.py b/openerp/addons/l10n_ch/report/__init__.py
+index e8703f1..eecc67f 100644
+--- a/openerp/addons/l10n_ch/report/__init__.py
++++ b/openerp/addons/l10n_ch/report/__init__.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_fr/__init__.py b/openerp/addons/l10n_fr/__init__.py
+index 8d5728e..d2ec220 100644
+--- a/openerp/addons/l10n_fr/__init__.py
++++ b/openerp/addons/l10n_fr/__init__.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_fr/__openerp__.py b/openerp/addons/l10n_fr/__openerp__.py
+index 26ec91c..143d8c3 100644
+--- a/openerp/addons/l10n_fr/__openerp__.py
++++ b/openerp/addons/l10n_fr/__openerp__.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ {
+diff --git a/openerp/addons/l10n_fr/report/__init__.py b/openerp/addons/l10n_fr/report/__init__.py
+index 9907a2f..5056318 100644
+--- a/openerp/addons/l10n_fr/report/__init__.py
++++ b/openerp/addons/l10n_fr/report/__init__.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_fr/report/base_report.py b/openerp/addons/l10n_fr/report/base_report.py
+index 2c44b06..8cb0009 100644
+--- a/openerp/addons/l10n_fr/report/base_report.py
++++ b/openerp/addons/l10n_fr/report/base_report.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_fr/report/bilan_report.py b/openerp/addons/l10n_fr/report/bilan_report.py
+index fafacd8..b47b0c3 100644
+--- a/openerp/addons/l10n_fr/report/bilan_report.py
++++ b/openerp/addons/l10n_fr/report/bilan_report.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_fr/report/compute_resultant_report.py b/openerp/addons/l10n_fr/report/compute_resultant_report.py
+index e91f9fc..5ea6dd4 100644
+--- a/openerp/addons/l10n_fr/report/compute_resultant_report.py
++++ b/openerp/addons/l10n_fr/report/compute_resultant_report.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_fr/wizard/__init__.py b/openerp/addons/l10n_fr/wizard/__init__.py
+index 6e29471..32d4c5e 100644
+--- a/openerp/addons/l10n_fr/wizard/__init__.py
++++ b/openerp/addons/l10n_fr/wizard/__init__.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_fr/wizard/fr_report_bilan.py b/openerp/addons/l10n_fr/wizard/fr_report_bilan.py
+index cec2e51..1676ba6 100644
+--- a/openerp/addons/l10n_fr/wizard/fr_report_bilan.py
++++ b/openerp/addons/l10n_fr/wizard/fr_report_bilan.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_fr/wizard/fr_report_compute_resultant.py b/openerp/addons/l10n_fr/wizard/fr_report_compute_resultant.py
+index d90466e..bd0b29a 100644
+--- a/openerp/addons/l10n_fr/wizard/fr_report_compute_resultant.py
++++ b/openerp/addons/l10n_fr/wizard/fr_report_compute_resultant.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_in/__init__.py b/openerp/addons/l10n_in/__init__.py
+index 19de03b..c45b21d 100644
+--- a/openerp/addons/l10n_in/__init__.py
++++ b/openerp/addons/l10n_in/__init__.py
+@@ -23,7 +23,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_nl/__init__.py b/openerp/addons/l10n_nl/__init__.py
+index 57a3bb1..4235db8 100644
+--- a/openerp/addons/l10n_nl/__init__.py
++++ b/openerp/addons/l10n_nl/__init__.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/l10n_nl/__openerp__.py b/openerp/addons/l10n_nl/__openerp__.py
+index 562fd0a..561d23b 100644
+--- a/openerp/addons/l10n_nl/__openerp__.py
++++ b/openerp/addons/l10n_nl/__openerp__.py
+@@ -22,7 +22,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ #
+diff --git a/openerp/addons/l10n_pe/__init__.py b/openerp/addons/l10n_pe/__init__.py
+index 92da5db..e8fb5de 100644
+--- a/openerp/addons/l10n_pe/__init__.py
++++ b/openerp/addons/l10n_pe/__init__.py
+@@ -23,7 +23,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/__init__.py b/openerp/addons/report_webkit/__init__.py
+index dd44517..8c7533a 100644
+--- a/openerp/addons/report_webkit/__init__.py
++++ b/openerp/addons/report_webkit/__init__.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/__openerp__.py b/openerp/addons/report_webkit/__openerp__.py
+index f0bf0d1..ee782d0 100644
+--- a/openerp/addons/report_webkit/__openerp__.py
++++ b/openerp/addons/report_webkit/__openerp__.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/company.py b/openerp/addons/report_webkit/company.py
+index a8dc71f..7f6443d 100644
+--- a/openerp/addons/report_webkit/company.py
++++ b/openerp/addons/report_webkit/company.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/convert.py b/openerp/addons/report_webkit/convert.py
+index b4d4232..645437b 100644
+--- a/openerp/addons/report_webkit/convert.py
++++ b/openerp/addons/report_webkit/convert.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/header.py b/openerp/addons/report_webkit/header.py
+index b052c61..5b7cc8f 100644
+--- a/openerp/addons/report_webkit/header.py
++++ b/openerp/addons/report_webkit/header.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/ir_report.py b/openerp/addons/report_webkit/ir_report.py
+index d2709ea..0ed89f2 100644
+--- a/openerp/addons/report_webkit/ir_report.py
++++ b/openerp/addons/report_webkit/ir_report.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/report_helper.py b/openerp/addons/report_webkit/report_helper.py
+index 12651f3..4408f00 100644
+--- a/openerp/addons/report_webkit/report_helper.py
++++ b/openerp/addons/report_webkit/report_helper.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/webkit_report.py b/openerp/addons/report_webkit/webkit_report.py
+index 4d0bd62..4cfb858 100644
+--- a/openerp/addons/report_webkit/webkit_report.py
++++ b/openerp/addons/report_webkit/webkit_report.py
+@@ -26,7 +26,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/wizard/__init__.py b/openerp/addons/report_webkit/wizard/__init__.py
+index e8ae8b7..649ad01 100644
+--- a/openerp/addons/report_webkit/wizard/__init__.py
++++ b/openerp/addons/report_webkit/wizard/__init__.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit/wizard/report_webkit_actions.py b/openerp/addons/report_webkit/wizard/report_webkit_actions.py
+index bb2c531..e32db38 100644
+--- a/openerp/addons/report_webkit/wizard/report_webkit_actions.py
++++ b/openerp/addons/report_webkit/wizard/report_webkit_actions.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit_sample/__init__.py b/openerp/addons/report_webkit_sample/__init__.py
+index c1d68d5..783e271 100644
+--- a/openerp/addons/report_webkit_sample/__init__.py
++++ b/openerp/addons/report_webkit_sample/__init__.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ import wizard
+diff --git a/openerp/addons/report_webkit_sample/__openerp__.py b/openerp/addons/report_webkit_sample/__openerp__.py
+index 01eed24..e0ab052 100644
+--- a/openerp/addons/report_webkit_sample/__openerp__.py
++++ b/openerp/addons/report_webkit_sample/__openerp__.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/report_webkit_sample/report/__init__.py b/openerp/addons/report_webkit_sample/report/__init__.py
+index e8703f1..eecc67f 100644
+--- a/openerp/addons/report_webkit_sample/report/__init__.py
++++ b/openerp/addons/report_webkit_sample/report/__init__.py
+@@ -25,7 +25,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ #
+ ##############################################################################
+ 
+diff --git a/openerp/addons/resource/faces/observer.py b/openerp/addons/resource/faces/observer.py
+index 8943452..de5e990 100644
+--- a/openerp/addons/resource/faces/observer.py
++++ b/openerp/addons/resource/faces/observer.py
+@@ -22,7 +22,7 @@
+ #   You should have received a copy of the GNU General Public License
+ #   along with this program; if not, write to the
+ #   Free Software Foundation, Inc.,
+-#   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++#   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ############################################################################
+ 
+ #@-node:<< Copyright >>
+diff --git a/openerp/addons/resource/faces/pcalendar.py b/openerp/addons/resource/faces/pcalendar.py
+index c82c49d..213aac7 100644
+--- a/openerp/addons/resource/faces/pcalendar.py
++++ b/openerp/addons/resource/faces/pcalendar.py
+@@ -22,7 +22,7 @@
+ #   You should have received a copy of the GNU General Public License
+ #   along with this program; if not, write to the
+ #   Free Software Foundation, Inc.,
+-#   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++#   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ############################################################################
+ 
+ #@-node:<< Copyright >>
+diff --git a/openerp/addons/resource/faces/plocale.py b/openerp/addons/resource/faces/plocale.py
+index 61bfa91..5b2d308 100644
+--- a/openerp/addons/resource/faces/plocale.py
++++ b/openerp/addons/resource/faces/plocale.py
+@@ -17,7 +17,7 @@
+ #   You should have received a copy of the GNU General Public License
+ #   along with this program; if not, write to the
+ #   Free Software Foundation, Inc.,
+-#   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++#   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ############################################################################
+ 
+ import gettext
+diff --git a/openerp/addons/resource/faces/resource.py b/openerp/addons/resource/faces/resource.py
+index 3451806..e8246fc 100644
+--- a/openerp/addons/resource/faces/resource.py
++++ b/openerp/addons/resource/faces/resource.py
+@@ -22,7 +22,7 @@
+ #   You should have received a copy of the GNU General Public License
+ #   along with this program; if not, write to the
+ #   Free Software Foundation, Inc.,
+-#   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++#   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ############################################################################
+ 
+ #@-node:<< Copyright >>
+diff --git a/openerp/addons/resource/faces/task.py b/openerp/addons/resource/faces/task.py
+index f524011..b2ad264 100644
+--- a/openerp/addons/resource/faces/task.py
++++ b/openerp/addons/resource/faces/task.py
+@@ -22,7 +22,7 @@
+ #   You should have received a copy of the GNU General Public License
+ #   along with this program; if not, write to the
+ #   Free Software Foundation, Inc.,
+-#   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++#   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ############################################################################
+ 
+ #@-node:<< Copyright >>
+diff --git a/openerp/addons/resource/faces/timescale.py b/openerp/addons/resource/faces/timescale.py
+index 3e7c3c1..50f8e09 100644
+--- a/openerp/addons/resource/faces/timescale.py
++++ b/openerp/addons/resource/faces/timescale.py
+@@ -17,7 +17,7 @@
+ #   You should have received a copy of the GNU General Public License
+ #   along with this program; if not, write to the
+ #   Free Software Foundation, Inc.,
+-#   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++#   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ############################################################################
+ 
+ import faces.pcalendar as pcal
+diff --git a/openerp/addons/resource/faces/utils.py b/openerp/addons/resource/faces/utils.py
+index 5498576..92fc88e 100644
+--- a/openerp/addons/resource/faces/utils.py
++++ b/openerp/addons/resource/faces/utils.py
+@@ -17,7 +17,7 @@
+ #   You should have received a copy of the GNU General Public License
+ #   along with this program; if not, write to the
+ #   Free Software Foundation, Inc.,
+-#   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++#   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ############################################################################
+ 
+ import observer
+diff --git a/openerp/report/render/rml2html/rml2html.py b/openerp/report/render/rml2html/rml2html.py
+index 5044927..e9bd07e 100644
+--- a/openerp/report/render/rml2html/rml2html.py
++++ b/openerp/report/render/rml2html/rml2html.py
+@@ -33,7 +33,7 @@
+ #
+ # You should have received a copy of the GNU Lesser General Public
+ # License along with this library; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
+ 
+ import sys
+ import cStringIO
+diff --git a/openerp/report/render/rml2pdf/utils.py b/openerp/report/render/rml2pdf/utils.py
+index 273d581..0e24d35 100644
+--- a/openerp/report/render/rml2pdf/utils.py
++++ b/openerp/report/render/rml2pdf/utils.py
+@@ -34,7 +34,7 @@
+ #
+ # You should have received a copy of the GNU Lesser General Public
+ # License along with this library; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
+ 
+ import copy
+ import locale
+diff --git a/openerp/service/http_server.py b/openerp/service/http_server.py
+index 07e31ea..bcb41a4 100644
+--- a/openerp/service/http_server.py
++++ b/openerp/service/http_server.py
+@@ -23,7 +23,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ###############################################################################
+ 
+ #.apidoc title: HTTP and XML-RPC Server
+diff --git a/openerp/service/websrv_lib.py b/openerp/service/websrv_lib.py
+index 4da6536..e693111 100644
+--- a/openerp/service/websrv_lib.py
++++ b/openerp/service/websrv_lib.py
+@@ -21,7 +21,7 @@
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ ###############################################################################
+ 
+ #.apidoc title: HTTP Layer library (websrv_lib)

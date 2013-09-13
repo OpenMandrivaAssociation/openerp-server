@@ -1,0 +1,16 @@
+[Unit]
+Description=OpenERP Server
+
+# Remove postgresql.service if db is running on another host.
+After=syslog.target network.target postgresql.service
+
+[Service]
+Type=simple
+User=openerp
+ExecStartPre=run-parts /etc/openerp/start.d
+ExecStart=/usr/bin/openerp-server \
+    -c /etc/openerp/openerp-server.conf \
+    --logfile=/var/log/openerp/openerp-server.log
+
+[Install]
+WantedBy=multi-user.target
