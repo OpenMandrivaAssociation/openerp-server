@@ -9,7 +9,7 @@ Release:    1
 License:    AGPLv3 and GPLv3 and BSD and LGPLv2+
 Group:      Networking/WWW
 Summary:    Business Applications Server
-URL:        http://www.openerp.com
+URL:        https://www.openerp.com
 BuildArch:  noarch
 Source0:    http://nightly.openerp.com/6.1/nightly/src/openerp-%{version}-%{oe_rel}.tar.gz
 Source1:    openerp.service
